@@ -1,0 +1,4 @@
+D:\MyPro\Spring.NET\Spring.NET.Demo\Spring.NET.Demo.BaseACK\bin\Debug\Spring.NET.Demo.BaseACK.dll
+D:\MyPro\Spring.NET\Spring.NET.Demo\Spring.NET.Demo.BaseACK\bin\Debug\Spring.NET.Demo.BaseACK.pdb
+D:\MyPro\Spring.NET\Spring.NET.Demo\Spring.NET.Demo.BaseACK\obj\Debug\Spring.NET.Demo.BaseACK.dll
+D:\MyPro\Spring.NET\Spring.NET.Demo\Spring.NET.Demo.BaseACK\obj\Debug\Spring.NET.Demo.BaseACK.pdb

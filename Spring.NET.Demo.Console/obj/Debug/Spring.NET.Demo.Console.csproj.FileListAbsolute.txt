@@ -1,0 +1,7 @@
+D:\MyPro\Spring.NET\Spring.NET.Demo\Spring.NET.Demo.Console\bin\Debug\Spring.NET.Demo.Console.exe
+D:\MyPro\Spring.NET\Spring.NET.Demo\Spring.NET.Demo.Console\bin\Debug\Spring.NET.Demo.Console.pdb
+D:\MyPro\Spring.NET\Spring.NET.Demo\Spring.NET.Demo.Console\bin\Debug\Spring.NET.Demo.BaseACK.dll
+D:\MyPro\Spring.NET\Spring.NET.Demo\Spring.NET.Demo.Console\bin\Debug\Spring.NET.Demo.BaseACK.pdb
+D:\MyPro\Spring.NET\Spring.NET.Demo\Spring.NET.Demo.Console\obj\Debug\Spring.NET.Demo.Console.csprojResolveAssemblyReference.cache
+D:\MyPro\Spring.NET\Spring.NET.Demo\Spring.NET.Demo.Console\obj\Debug\Spring.NET.Demo.Console.exe
+D:\MyPro\Spring.NET\Spring.NET.Demo\Spring.NET.Demo.Console\obj\Debug\Spring.NET.Demo.Console.pdb

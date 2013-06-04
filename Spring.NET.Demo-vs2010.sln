@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.NET.Demo.BaseACK", ".\Spring.NET.Demo.BaseACK\Spring.NET.Demo.BaseACK.csproj", "{6E61BFD3-6DF7-4F06-807F-3CA4312E5647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.NET.Demo.Console", ".\Spring.NET.Demo.Console\Spring.NET.Demo.Console.csproj", "{C5FDB375-9F01-405A-966C-DB2D622EC804}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E61BFD3-6DF7-4F06-807F-3CA4312E5647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E61BFD3-6DF7-4F06-807F-3CA4312E5647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E61BFD3-6DF7-4F06-807F-3CA4312E5647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E61BFD3-6DF7-4F06-807F-3CA4312E5647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5FDB375-9F01-405A-966C-DB2D622EC804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5FDB375-9F01-405A-966C-DB2D622EC804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5FDB375-9F01-405A-966C-DB2D622EC804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5FDB375-9F01-405A-966C-DB2D622EC804}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
