@@ -1,29 +1,34 @@
 ﻿#region Version Info
 /* ======================================================================== 
-    * 【说明描述】 
+    * 【本类功能概述】 
     *  
-    * 作者：yoolo        时间：2013/6/3 23:50:01 
-    * 文件名：Spring.NET.Demo.BaseACK.PersonFactory
+    * 作者：yoolo       时间：2013/6/5 14:18:18 
+    * 文件名：Spring.NET.Demo.BaseACK.Human.Car 
     * 版本：V1.0.1 
     * 
     * 修改者：           时间：               
     * 修改说明： 
     * ======================================================================== 
-  */
+    */
 #endregion
 
-namespace Spring.NET.Demo.BaseACK
+
+namespace Spring.NET.Demo.BaseACK.Human
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
 
-    public class PersonFactory
+    class Car : ITools
     {
-        public static IPerson MakePerson()
+        #region ITools 成员
+
+        public void Go()
         {
-            return new Man();
+            Console.WriteLine("Travel by Car");
         }
+
+        #endregion
     }
 }
