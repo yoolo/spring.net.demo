@@ -23,8 +23,14 @@ namespace Spring.NET.Demo.Console
             //DI
             DIOjbectInvoke();
 
-
+            //reflection
             MakeInstance.ActivatorInstance();
+
+            //normal object invoke
+            AOPManin.ClientStart();
+
+            //AOP base invoke
+            AOPManin.AOPClientStart();
 
         }
 

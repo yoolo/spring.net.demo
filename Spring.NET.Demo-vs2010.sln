@@ -1,9 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.NET.Demo.BaseACK", ".\Spring.NET.Demo.BaseACK\Spring.NET.Demo.BaseACK.csproj", "{6E61BFD3-6DF7-4F06-807F-3CA4312E5647}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.NET.Demo.BaseACK", "Spring.NET.Demo.BaseACK\Spring.NET.Demo.BaseACK.csproj", "{6E61BFD3-6DF7-4F06-807F-3CA4312E5647}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.NET.Demo.Console", ".\Spring.NET.Demo.Console\Spring.NET.Demo.Console.csproj", "{C5FDB375-9F01-405A-966C-DB2D622EC804}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.NET.Demo.Console", "Spring.NET.Demo.Console\Spring.NET.Demo.Console.csproj", "{C5FDB375-9F01-405A-966C-DB2D622EC804}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{40D280F4-06F0-4B4C-985D-14139C279759}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Common.Logging.dll = Lib\Common.Logging.dll
+		Lib\Spring.Aop.dll = Lib\Spring.Aop.dll
+		Lib\Spring.Aop.pdb = Lib\Spring.Aop.pdb
+		Lib\Spring.Aop.xml = Lib\Spring.Aop.xml
+		Lib\Spring.Core.dll = Lib\Spring.Core.dll
+		Lib\Spring.Core.pdb = Lib\Spring.Core.pdb
+		Lib\Spring.Core.xml = Lib\Spring.Core.xml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

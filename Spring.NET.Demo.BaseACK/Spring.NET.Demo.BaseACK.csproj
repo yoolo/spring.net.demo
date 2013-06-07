@@ -38,6 +38,9 @@
     <Reference Include="Common.Logging">
       <HintPath>..\packages\Common.Logging.1.2.0\lib\1.0\Common.Logging.dll</HintPath>
     </Reference>
+    <Reference Include="Spring.Aop">
+      <HintPath>..\packages\Spring.Aop.1.3.2\lib\net40\Spring.Aop.dll</HintPath>
+    </Reference>
     <Reference Include="Spring.Core">
       <HintPath>..\packages\Spring.Core.1.3.2\lib\net40\Spring.Core.dll</HintPath>
     </Reference>
@@ -50,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AOP\ISecurity.cs" />
+    <Compile Include="AOP\IUserManager.cs" />
+    <Compile Include="AOP\MethodInterceptorAdvise.cs" />
+    <Compile Include="AOP\NormalManager.cs" />
+    <Compile Include="AOP\SecurityLevel1.cs" />
+    <Compile Include="AOP\SystemManager.cs" />
     <Compile Include="AutoIOC\MakeInstance.cs" />
     <Compile Include="Human\Bike.cs" />
     <Compile Include="Human\Car.cs" />
@@ -64,9 +73,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Design\AOPClassDiagram.cd" />
     <None Include="Design\ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
